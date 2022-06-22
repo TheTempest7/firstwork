@@ -29,6 +29,8 @@
 </template>
 
 <script>
+import router from '@/router';
+
 
 
 export default {
@@ -62,7 +64,7 @@ export default {
         if(result['message']=='ok'){
           console.log(1213);
           localStorage.setItem('Leadhit-Site-Id',`${c}`);
-          window.open('/about','_top');
+          router.push('/about');
         }
         }
       if(df.value.length!=24){

@@ -11,13 +11,14 @@
 import * as am5 from '@amcharts/amcharts5';
 import * as am5xy from '@amcharts/amcharts5/xy';
 import am5themes_Animated from '@amcharts/amcharts5/themes/Animated';
+import router from '@/router';
 
 export default {
   name: 'AboutView',
   beforeCreate(){
     let storageCheck=localStorage.getItem('Leadhit-Site-Id');
     if(!storageCheck){
-      window.open('/','_top');
+      router.push('/');
     }
   },
     mounted() {

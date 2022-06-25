@@ -1,5 +1,10 @@
 # firstwork
 https://thetempest7.github.io/firstwork/
+
+
+VALID PASSWORD: 5f8475902b0be670555f1bb3
+
+
 ## Project setup
 ```
 npm install
